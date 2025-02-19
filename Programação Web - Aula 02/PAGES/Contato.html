@@ -1,31 +1,44 @@
+<!-- TIPO DO DOCUMENTO -->
 <!DOCTYPE html>
+<!-- LINGUAGEM DO DOCUMENTO -->
 <html lang="en">
 <head>
+    <!-- CONJUNTO DE CARACTERES -->
     <meta charset="UTF-8">
+    <!-- DEIXAR A PÁGINA RESPONSIVA -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DA PÁGINA -->
     <title>Document</title>
+    <!-- DEFINE O VISUAL DA PÁGINA (CSS) -->
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body>
-    <header>
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header> 
+        <!-- MENU DE NAVEGAÇÃO -->
         <nav>
             <ul>
+                <!-- ITENS DO MENU DE NAVEGAÇÃO -->
                 <li><a href="../Index.html">Inicio</a></li>
                 <li><a href="Sobre.html">Sobre</a></li>
                 <li><a href="Contato.html">Contato</a></li>
             </ul>
         </nav>
+        <!-- ALTERNA PARA O MODO ESCURO -->
         <div class="dark-mode-toggle">
             <label for="darkModeToggle">Modo Escuro</label>
             <input type="checkbox" id="darmlModeToggle">
         </div>
     </header>
+    <!-- CORPO PRINCIPAL DA PÁGINA -->
     <main>
+        <!-- CONTADOR DE VISITAS NO SITE -->
         <div class="visit-counter">
             Número de visitas: <span id="visitCount">0</span>
         </div>
-
+        <!-- TÍTULO DA SEÇÃO DE CONTATO -->
         <h1>Entre em Contato</h1>
+        <!-- INFORMAÇÕES DA SEÇÃO DE CONTATO -->
         <section class="Contato">
             <div class="info-contato">
                 <h2>Informações de Contato</h2>
@@ -44,7 +57,7 @@
                     </div>
                 </div>
             </div>
-
+            <!-- FORMULÁRIO DE INSCRIÇÃO DA SEÇÃO -->
             <div class="forma-section">
                 <h2>Formulário de Inscrição</h2>
                 <form class="formulário">
@@ -74,17 +87,20 @@
                             Desejo receber novidades sobre próximos cursos
                         </label>
                     </div>
-
+                    
+                    <!-- BOTÃO DE ENVIO DO FORMULÁRIO -->
                     <button type="submit">Enviar Inscrição</button>
                 </form>
             </div>
         </section>
     </main>
 
+    <!-- RODAPÉ DA PÁGINA -->
     <footer>
         <p>%copy; 2024 Curso HTML e CSS</p>
     </footer>
 
+    <!-- INCLUSÃO DO ARQUIVO JAVASCRIPT -->
     <script src="../JS/Main.js"></script>
     
 </body>
