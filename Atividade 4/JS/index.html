@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aprenda JavaScript</h1>
+        <section class="calculator">
+            <h2>Calculadora Simples</h2>
+
+            <input type="number" id="num1" placeholder="Primeiro número">
+            <input type="number" id="num2" placeholder="Segundo número">
+            <div class="buttons">
+                <button onclick="calculate('+')" class="operation">Somar</button>
+                <button onclick="calculate('-')" class="operation">Subtrair</button>
+                <button onclick="calculate('*')" class="operation">Multiplicar</button>
+                <button onclick="calculate('/')" class="operation">Dividir</button>
+            </div>
+            <p id="result">Resultado:</p>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
